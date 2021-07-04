@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gppunecomp">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".first"></activity>
+        <activity android:name=".feedback" />
+        <activity android:name=".detension" />
+        <activity android:name=".semstructure" />
+        <activity android:name=".timetable" />
+        <activity android:name=".query" />
+        <activity android:name=".photo" />
+        <activity android:name=".mission" />
+        <activity android:name=".course" />
+        <activity android:name=".askme" />
+        <activity android:name=".abtapp" />
+        <activity android:name=".abtclg" />
+        <activity android:name=".gp2" />
+        <activity android:name=".gp1" />
+        <activity android:name=".gpform" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
